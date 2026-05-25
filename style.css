@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.questions {
+  margin-top: 20px;
+}
+
+.terms {
+  margin-bottom: 20px;
+}
