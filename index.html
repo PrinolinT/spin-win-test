@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spin & Win Test</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Spin & Win</h1>
+
+    <form id="entryForm">
+
+      <input type="text" id="name" placeholder="Full Name" required>
+
+      <input type="email" id="email" placeholder="Email Address" required>
+
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+
+      <div class="questions">
+
+        <h3>Answer Questions</h3>
+
+        <label>
+          What color is the sky?
+        </label>
+
+        <input type="text" id="q1" required>
+
+        <label>
+          What is 2 + 2?
+        </label>
+
+        <input type="text" id="q2" required>
+
+      </div>
+
+      <div class="terms">
+        <input type="checkbox" id="terms" required>
+
+        <label for="terms">
+          I accept the Terms & Conditions and Indemnity
+        </label>
+      </div>
+
+      <button type="button" id="validateBtn">
+        Validate Answers
+      </button>
+
+    </form>
+
+    <div id="wheelSection" class="hidden">
+
+      <h2>Spin The Wheel!</h2>
+
+      <button id="spinBtn">
+        SPIN & WIN
+      </button>
+
+    </div>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
